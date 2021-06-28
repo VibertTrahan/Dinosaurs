@@ -171,11 +171,12 @@
 
     const submitButton = document.getElementById("btn");
     const form = document.getElementById("dino-compare");
-    // Remove form from screen
+
 
     // On button click, prepare and display infographic
 
     submitButton.addEventListener("click", () => {
+                // Remove form from screen
                 form.style.display = "none";
 
                 (function generateHuman() {
